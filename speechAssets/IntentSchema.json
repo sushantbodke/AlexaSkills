@@ -1,0 +1,45 @@
+{
+  "intents": [
+    {
+      "intent": "Hello"
+    },
+    {
+      "intent": "AlexaMeetupNumbers"
+    },
+    {
+      "intent": "AlexaMeetupCityCheck",
+      "slots": [
+        {
+          "name": "USCity",
+          "type": "AMAZON.US_CITY"
+        },
+        {
+          "name": "EuropeanCity",
+          "type": "AMAZON.EUROPE_CITY"
+        }
+      ]
+    },
+    {
+      "intent": "AlexaMeetupOrganiserCheck",
+      "slots": [
+        {
+          "name": "USCity",
+          "type": "AMAZON.US_CITY"
+        },
+        {
+          "name": "EuropeanCity",
+          "type": "AMAZON.EUROPE_CITY"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
